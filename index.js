@@ -268,7 +268,7 @@ Parser.convertDxf = function convertDxf(params, callback) {
             callback(err);
             return;
         }
-
+        console.log("123");
         var polygons    = dxfParser.getPolygons(tab),
             texts       = dxfParser.getTexts(tab, true);
 
